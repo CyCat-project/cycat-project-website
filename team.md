@@ -8,4 +8,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+We are a group of experienced cybersecurity experts, community contributors and friends. This initiative was created to strengthen the community of defenders and tap into the their collective insights to improve prevention, detection and response. By the community for the community. Together we can do a better job. 
