@@ -1,52 +1,35 @@
 ---
 title: 'About'
-date: 2018-02-22T17:01:34+07:00
+date: 2020-01-28T17:01:34+07:00
 layout: page
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+# The universal CYbersecurity resource CATalogue (CyCAT.org)
 
-## Ne verba patulosque numen vix libet
+CyCAT.org or the Universal Cybersecurity Resource Catalogue aims at mapping and documenting, in a single formalism and catalogue all the community cybersecurity tools, rules, playbooks, processes and controls. CyCAT.org is positioned as a readily accessible catalogue for and by the community, distributed and non-commercial. Some level of moderation will be organised to assure the quality and reliability of the content.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+Building on the success of existing initiatives such as CVE for vulnerabilities and elegant solutions such as the UUID used by MISP to uniquely identify and link events (e.g. which events extend or share attributes with one another), CyCAT.org provides mechanisms to programmatically attribute a unique identifier to:
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+- Cybersecurity tools
+- Rules and rule sets (such as Sigma, YARA, Snort/Zeek/Suricata)
+- Fingerprinting rules (such as ja3, jarm)
+- Playbooks
+- Notebooks
+- Taxonomies
+- Vulnerabilities
+- Proof-of-concepts to validate such vulnerabilities
+- Data models (MISP Objects, STIX extension)
+- Mitigating controls
 
-## Postquam tamen
+By making an API call, authors can reserve a unique identifier for their contributions, while providing simple metadata to describe their entry in the catalogue.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+CYCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+In addition, authors can query the library to identify whether the problem they are trying to tackle has already been solved elsewhere and avoid, if they so prefer, duplication of work.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+CYCAT will offer users a web UI to query its content as well as CLI tools and API endpoints to interact with it and tag content that they are currently using or would like to experiment with in the future to have a holistic view of what they are using at a certain point in time in their operations, which rules, TTPs of IOC collections should be deprecated or replaced, which tools should be superseded by new ones, etc.
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+The aim is not to replace any existing initiative in cybersecurity but to link and offer better visibility to all project owners and user communities. CYCAT is a non-profit initiative runs by a team of motivated people to catalogue and crosslink cybersecurity resources.
+
