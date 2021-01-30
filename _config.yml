@@ -1,13 +1,13 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'CYCAT'
 
 google_analytics_id: ""
 homepage:
   show_call_box: true
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logo.svg"
   desktop: "images/logo/logo.svg"
   desktop_height: "36px"
 footer:

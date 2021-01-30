@@ -1,12 +1,12 @@
 ---
-title: Jekyll Serif Theme
+title: CyCAT.org 
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: The Universal Cybersecurity Resource Catalogue 
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Jekyll Business Theme.
-
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+# CyCAT.org - The Universal Cybersecurity Resource Catalogue
+ 
+CyCAT.org or the Universal Cybersecurity Resource Catalogue aims at mapping and documenting, in a single formalism and catalogue all the community cybersecurity tools, rules, playbooks, processes and controls
