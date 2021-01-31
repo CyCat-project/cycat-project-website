@@ -24,13 +24,13 @@ While there are well-known products and tools that are not too difficult to iden
 
 Analytics and detection rules, built using SIGMA, YARA or other formats, are another overwhelming maze in which one can easily get lost. Which clever insights has the community developed to find adversarial behaviour? Which detection rules are more relevant for my context? Which rules supersede or augment existing ones? Which authors tend to make more relevant rules for my environment? How do I identify duplicates in sets coming from various sources and avoid overloading my detection systems?
 
-We find a similar situation when looking closely at playbooks and processes that the community is documenting in Jupyter notebooks or similar tools. What are the recommended steps I should perform to triage or contain a cyberattack? What are the best practices in incident response timelining? What are the processes my peers rely on that I can replicate in my environment? 
+We find a similar situation when looking closely at playbooks and processes that the community is documenting in Jupyter notebooks or similar tools. What are the recommended steps I should perform to triage or contain a cyberattack? What are the best practices in incident response timelining? What are the processes my peers rely on that I can replicate in my environment?
 
-All these questions are valid and, if not properly addressed, the cybersecurity community will keep losing precious time and reinventing the wheel at scale in an era where we can no longer afford this. In many cases, we have tools and frameworks available but locating, correlating, checking and maintaining them remain serious challenges. We believe that resolving these challenges and amplifying the impact of the combined knowledge of the community could be fostered by a well-structured, simple-to-use system as proposed in this White Paper. 
+All these questions are valid and, if not properly addressed, the cybersecurity community will keep losing precious time and reinventing the wheel at scale in an era where we can no longer afford this. In many cases, we have tools and frameworks available but locating, correlating, checking and maintaining them remain serious challenges. We believe that resolving these challenges and amplifying the impact of the combined knowledge of the community could be fostered by a well-structured, simple-to-use system as proposed in this White Paper.
 
 We propose a system based on a taxonomy of well-defined namespaces for identifiers related to cybersecurity resources. While embryonic in its first iteration and there is certainly room for improvement, the taxonomy is extensible to cover future domains while being flexible to iron out defects and integrate improvements as the system’s adoption grows. The proposed system allows contextualisation to facilitate searching and selection using tags. As a decentralised structure, it allows authors to control the documentation and distribution of their content.
 
-The system is designed in such a way that it is easy for organisations and individuals alike to obtain their unique namespaces, make and maintain entries in the catalogue corresponding to the resources they create. Essential features such as version control, crowd sourced vetting and quality control as well as deprecation will be integrated from the outset. 
+The system is designed in such a way that it is easy for organisations and individuals alike to obtain their unique namespaces, make and maintain entries in the catalogue corresponding to the resources they create. Essential features such as version control, crowd sourced vetting and quality control as well as deprecation will be integrated from the outset.
 
 Finally, the system will, in a future iteration, facilitate interlinking resources that could be used in conjunction for an improved capability in coherent “packages”. Such “packages'' could then be deployed by less mature entities as plug-and-play solutions to save time and defend themselves properly, while avoiding the pitfalls resolved by early adopters or more mature organisations.
 
@@ -80,13 +80,13 @@ Initial feedback and peer review of the concept (White Paper and draft taxonomy)
 
 # How to Submit Feedback?
 
+
 # Who is Behind CyCAT.org?
 
 We are four experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler:
 
 
-- Freddy Dezeure (@FDezeure): Freddy founded and managed the EU Computer Emergency and Response Team (CERT-EU) from 2011 until 2017. Presently, he is an independent management consultant, providing strategic advice in cybersecurity and cyber-risk management. He is a Board Member/Advisor in several high-tech companies. He is very active in the cybersecurity community and leads the EU MITRE ATT&CK Community.
-- Alexandre Dulaunoy (@adulau): short bio
-- Andras Iklody : short bio
-- Saâd Kadhi: short bio
-
+- Freddy Dezeure: Freddy founded and managed the EU Computer Emergency and Response Team (CERT-EU) from 2011 until 2017. Presently, he is an independent management consultant, providing strategic advice in cybersecurity and cyber-risk management. He is a Board Member/Advisor in several high-tech companies. He is very active in the cybersecurity community and leads the EU MITRE ATT&CK Community.
+- Alexandre Dulaunoy: short bio
+- Andras Iklody: short bio
+- Saâd Kadhi: Saâd has more than 22 years of cybersecurity experience. He has been leading CERT-EU since early 2019. Previously, he created and led CERT Banque de France. Before that he developed the CSIRT of Danone and worked as a senior analyst at CERT Société Générale. He co-created TheHive Project and is a co-organiser of the BotConf cybersecurity conference.
