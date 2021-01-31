@@ -2,7 +2,7 @@
 title: "Freddy Dezeure"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/beeldpresberichtjuli2017-V2.jpg"
+image: "images/team/freddy.jpeg"
 jobtitle: "Founder"
 linkedinurl: "https://twitter.com/FDezeure"
 promoted: true
