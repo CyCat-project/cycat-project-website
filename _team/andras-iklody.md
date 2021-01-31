@@ -10,4 +10,4 @@ weight: 3
 layout: team
 ---
 
-Converting coffee into [MISP](https://www.misp-project.org/) and [Cerebrate](https://github.com/cerebrate-project/).
+Andras is a software engineer working at CIRCL, he has been involved in open source software development in the security field for the past decade, among others leading the development of the [MISP](https://www.misp-project.org/) core software and [Cerebrate](https://github.com/cerebrate-project/). 
