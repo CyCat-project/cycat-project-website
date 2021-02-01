@@ -30,6 +30,7 @@ bundle exec jekyll build
 
 ### Deployment
 
+- Run `./build.sh`
 
 ## License
 
