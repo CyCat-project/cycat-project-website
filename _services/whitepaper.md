@@ -70,9 +70,9 @@ An example of the use of CYCAT in the current context would be to support pullin
 
 # CyCAT.org Resources
 
-- GitHub repository: https://github.com/cycat-project
-- Website:  https://www.cycat.org/
-- Contributing via GitHub issues: https://github.com/CyCat-project/cycat-project-website/issues
+- GitHub repository: [https://github.com/cycat-project](https://github.com/cycat-project)
+- Website:  [https://www.cycat.org/](https://www.cycat.org/)
+- Contributing via GitHub issues: [https://github.com/CyCat-project/cycat-project-website/issues](https://github.com/CyCat-project/cycat-project-website/issues)
 
 # Timing
 
@@ -80,6 +80,7 @@ Initial feedback and peer review of the concept (White Paper and draft taxonomy)
 
 # How to Submit Feedback?
 
+The CyCAT.org project is in an initial phase and actively look for feedback.
 
 # Who is Behind CyCAT.org?
 
