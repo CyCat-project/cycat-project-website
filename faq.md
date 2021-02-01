@@ -16,3 +16,9 @@ The aim is not to replace any existing initiative in cybersecurity but to link a
 
 No. CyCAT.org is a non-profit initiative runs by a team of motivated people to catalogue and crosslink cybersecurity resources. All our content, tools and dataset are released under open source license or even public domain.
 
+# Who is Behind CyCAT.org?
+
+We are four experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
+
+[Meet the team!](/team/)
+
