@@ -80,7 +80,8 @@ Initial feedback and peer review of the concept (White Paper and draft taxonomy)
 
 # How to Submit Feedback?
 
-The CyCAT.org project is in an initial phase and actively look for feedback. Don't hesitate to [open an issue](https://github.com/CyCat-project/cycat-project-website/issues/new/choose).
+The CyCAT.org project is in an initial phase and actively look for feedback. Don't hesitate to [open an issue](https://github.com/CyCat-project/cycat-project-website/issues/new/choose). You can have a look
+at our [FAQ](/faq/) if you have any more question.
 
 # Who is Behind CyCAT.org?
 
