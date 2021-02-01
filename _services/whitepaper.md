@@ -84,10 +84,7 @@ The CyCAT.org project is in an initial phase and actively look for feedback.
 
 # Who is Behind CyCAT.org?
 
-We are four experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler:
+We are four experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
 
+[Meet the team!](/team/)
 
-- Freddy Dezeure: Freddy founded and managed the EU Computer Emergency and Response Team (CERT-EU) from 2011 until 2017. Presently, he is an independent management consultant, providing strategic advice in cybersecurity and cyber-risk management. He is a Board Member/Advisor in several high-tech companies. He is very active in the cybersecurity community and leads the EU MITRE ATT&CK Community.
-- Alexandre Dulaunoy: short bio
-- Andras Iklody: short bio
-- Saâd Kadhi: Saâd has more than 22 years of cybersecurity experience. He has been leading CERT-EU since early 2019. Previously, he created and led CERT Banque de France. Before that he developed the CSIRT of Danone and worked as a senior analyst at CERT Société Générale. He co-created TheHive Project and is a co-organiser of the BotConf cybersecurity conference.
