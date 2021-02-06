@@ -22,3 +22,6 @@ We are four experienced, community-oriented cybersecurity professionals who have
 
 [Meet the team!](/team/)
 
+# Who is Helping CyCAT.org?
+
+CyCAT is a collaborative effort and we would like to [thank people who helped us](/acknowledgment/).
