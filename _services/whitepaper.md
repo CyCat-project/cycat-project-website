@@ -1,5 +1,5 @@
 ---
-title: "Whitepaper - CyCAT.org - The Universal Cybersecurity Resource Catalogue"
+title: "Whitepaper - CyCAT.org - The Cybersecurity Resource Catalogue"
 date: 2021-01-29T12:33:46+10:00
 featured: true
 weight: 1
@@ -36,9 +36,9 @@ We may need to include some form of curation/moderation to make sure the system 
 
 Finally, the system will, in a future iteration, facilitate interlinking resources that could be used in conjunction for an improved capability in coherent “packages”. Such “packages'' could then be deployed by less mature entities as plug-and-play solutions to save time and defend themselves properly, while avoiding the pitfalls resolved by early adopters or more mature organisations.
 
-# The universal CYbersecurity resource CATalogue (CyCAT.org)
+# The CYbersecurity resource CATalogue (CyCAT.org)
 
-CyCAT.org or the Universal Cybersecurity Resource Catalogue aims at mapping and documenting, in a single formalism and catalogue all the community cybersecurity tools, rules, playbooks, processes and controls. CyCAT.org is positioned as a readily accessible catalogue for and by the community, distributed and non-commercial. Some level of moderation will be organised to assure the quality and reliability of the content.
+CyCAT.org or the Cybersecurity Resource Catalogue aims at mapping and documenting, in a single formalism and catalogue all the community cybersecurity tools, rules, playbooks, processes and controls. CyCAT.org is positioned as a readily accessible catalogue for and by the community, distributed and non-commercial. Some level of moderation will be organised to assure the quality and reliability of the content.
 
 Building on the success of existing initiatives such as CVE for vulnerabilities and elegant solutions such as the UUID used by MISP to uniquely identify and link events (e.g. which events extend or share attributes with one another), CyCAT.org provides mechanisms to programmatically attribute a unique identifier to:
 
