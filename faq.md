@@ -18,7 +18,7 @@ No. CyCAT.org is a non-profit initiative runs by a team of motivated people to c
 
 # Who is Behind CyCAT.org?
 
-We are four experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
+We are experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
 
 [Meet the team!](/team/)
 
