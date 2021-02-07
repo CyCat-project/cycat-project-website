@@ -14,4 +14,5 @@ We would like to thank the following individuals who contributed to the CyCAT.or
 - Andrii Bezverkhyi
 - Olaf Hartong
 - Thomas Patzke
+- Daniil Yugoslavskiy
 
