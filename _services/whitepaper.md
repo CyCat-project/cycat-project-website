@@ -30,7 +30,9 @@ All these questions are valid and, if not properly addressed, the cybersecurity 
 
 We propose a system based on a taxonomy of well-defined namespaces for identifiers related to cybersecurity resources. While embryonic in its first iteration and there is certainly room for improvement, the taxonomy is extensible to cover future domains while being flexible to iron out defects and integrate improvements as the system’s adoption grows. The proposed system allows contextualisation to facilitate searching and selection using tags. As a decentralised structure, it allows authors to control the documentation and distribution of their content.
 
-The system is designed in such a way that it is easy for organisations and individuals alike to obtain their unique namespaces, make and maintain entries in the catalogue corresponding to the resources they create. Essential features such as version control, crowd sourced vetting and quality control as well as deprecation will be integrated from the outset.
+The system is designed in such a way that it is easy for organisations and individuals alike to obtain their unique namespaces, make and maintain entries in the catalogue corresponding to the resources they create. Essential features such as version control, crowd sourced vetting and quality control as well as deprecation will be integrated from the outset. 
+
+We may need to include some form of curation/moderation to make sure the system delivers on its promise and the community interaction is animated optimally.
 
 Finally, the system will, in a future iteration, facilitate interlinking resources that could be used in conjunction for an improved capability in coherent “packages”. Such “packages'' could then be deployed by less mature entities as plug-and-play solutions to save time and defend themselves properly, while avoiding the pitfalls resolved by early adopters or more mature organisations.
 
@@ -54,9 +56,9 @@ Building on the success of existing initiatives such as CVE for vulnerabilities 
 
 By making an API call, authors can reserve a unique identifier for their contributions, while providing simple metadata to describe their entry in the catalogue.
 
-CYCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc.
+CYCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc. The syatem may also include at a later stage a community-sourced rating/validation of the content. 
 
-In addition, authors can query the library to identify whether the problem they are trying to tackle has already been solved elsewhere and avoid, if they so prefer, duplication of work.
+In addition, users can query the library to identify whether the problem they are trying to tackle has already been solved elsewhere and avoid, if they so prefer, duplication of work.
 
 CYCAT will offer users a web UI to query its content as well as CLI tools and API endpoints to interact with it and tag content that they are currently using or would like to experiment with in the future to have a holistic view of what they are using at a certain point in time in their operations, which rules, TTPs of IOC collections should be deprecated or replaced, which tools should be superseded by new ones, etc.
 
