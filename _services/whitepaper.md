@@ -87,7 +87,7 @@ at our [FAQ](/faq/) if you have any questions.
 
 # Who is Behind CyCAT.org?
 
-We are four experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
+We are experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
 
 [Meet the team!](/team/)
 
