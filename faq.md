@@ -5,7 +5,7 @@ layout: page
 bodyClass: page-about
 ---
 
-# Frequently Asked Questions about The universal CYbersecurity resource CATalogue (CyCAT.org)
+# Frequently Asked Questions about The Cybersecurity resource CATalogue (CyCAT.org)
 
 # Do you compete with project X?
 
