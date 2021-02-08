@@ -1,5 +1,5 @@
 ---
-title: "Whitepaper - CyCAT.org - The Cybersecurity Resource Catalogue"
+title: "White Paper - CyCAT - The Cybersecurity Resource Catalogue"
 date: 2021-01-29T12:33:46+10:00
 featured: true
 weight: 1
