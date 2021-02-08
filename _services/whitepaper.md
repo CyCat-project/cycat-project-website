@@ -56,7 +56,7 @@ Building on the success of existing initiatives such as CVE for vulnerabilities 
 
 By making an API call, authors can reserve a unique identifier for their contributions, while providing simple metadata to describe their entry in the catalogue.
 
-CYCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc. The syatem may also include at a later stage a community-sourced rating/validation of the content. 
+CYCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc. The system may also include at a later stage a community-sourced rating/validation of the content. 
 
 In addition, users can query the library to identify whether the problem they are trying to tackle has already been solved elsewhere and avoid, if they so prefer, duplication of work.
 
