@@ -4,4 +4,4 @@ layout: contact
 bodyClass: page-contact
 ---
 
-CyCAT.org is a virtual team. You can contact us if you want to join us, help us or contribute or share ideas.
+CyCAT is a virtual [team](/team/). You can contact us if you want to help us, contribute or share ideas.

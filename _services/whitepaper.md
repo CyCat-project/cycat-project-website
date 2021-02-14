@@ -6,7 +6,7 @@ weight: 1
 layout: service
 ---
 
-# Problem definition
+# Problem Definition
 
 Our society is more and more dependent on information systems and the disruption by cyberattacks is an ever-increasing risk. As adversaries are becoming more astute and organised, defenders are also doing so. In the past few years, several initiatives have sprung up while numerous tools, products, frameworks and methodologies have been released to prevent, detect and respond to a large variety of threats. MITRE ATT&CK®, NIST’s Cybersecurity Framework, YARA, SIGMA, JUPYTER or even Markdown are but a few that have been taken up by the community as efficient ways to document insights and make them actionable.
 
@@ -28,18 +28,17 @@ We find a similar situation when looking closely at playbooks and processes that
 
 All these questions are valid and, if not properly addressed, the cybersecurity community will keep losing precious time and reinventing the wheel at scale in an era where we can no longer afford this. In many cases, we have tools and frameworks available but locating, correlating, checking and maintaining them remain serious challenges. We believe that resolving these challenges and amplifying the impact of the combined knowledge of the community could be fostered by a well-structured, simple-to-use system as proposed in this White Paper.
 
-We propose a system based on a taxonomy of well-defined namespaces for identifiers related to cybersecurity resources. While embryonic in its first iteration and there is certainly room for improvement, the taxonomy is extensible to cover future domains while being flexible to iron out defects and integrate improvements as the system’s adoption grows. The proposed system allows contextualisation to facilitate searching and selection using tags. As a decentralised structure, it allows authors to control the documentation and distribution of their content.
+We would like to build a system based on a taxonomy of well-defined namespaces for identifiers related to cybersecurity resources. While embryonic in its first iteration and there is certainly room for improvement, the taxonomy is extensible to cover future domains while being flexible to iron out defects and integrate improvements as the system’s adoption grows. The proposed system will support contextualisation to facilitate searching and selection using tags. As a decentralised structure, it allows authors to control the documentation and distribution of their content.
 
-The system is designed in such a way that it is easy for organisations and individuals alike to obtain their unique namespaces, make and maintain entries in the catalogue corresponding to the resources they create. Essential features such as version control, crowd sourced vetting and quality control as well as deprecation will be integrated from the outset. 
+The system will be designed in such a way that it is easy for organisations and individuals alike to obtain their unique namespaces, make and maintain entries in the catalogue corresponding to the resources they create. Essential features such as version control, crowd sourced vetting and quality control as well as deprecation will be integrated from the outset.
 
-Finally, the system will, in a future iteration, facilitate interlinking resources that could be used in conjunction for an improved capability in coherent “packages”. Such “packages'' could then be deployed by less mature entities as plug-and-play solutions to save time and defend themselves properly, while avoiding the pitfalls resolved by early adopters or more mature organisations.
+Finally, the system will, in a future iteration, facilitate interlinking resources that could be used in conjunction for an improved capability in coherent “packages”. Such “packages” could then be deployed by less mature entities as plug-and-play solutions to save time and defend themselves properly, while avoiding the pitfalls resolved by early adopters or more mature organisations.
 
-# The CYbersecurity resource CATalogue (CyCAT.org)
+# The CYbersecurity resource CATalogue (CyCAT)
 
-CyCAT.org or the Cybersecurity Resource Catalogue aims at mapping and documenting, in a single formalism and catalogue all the cybersecurity tools, rules, playbooks, processes and controls. CyCAT.org is positioned as a readily accessible catalogue for and by the community, distributed and non-commercial. Some level of moderation will be organised to assure the quality and reliability of the content.
+CyCAT or the Cybersecurity Resource Catalogue aims at mapping and documenting, in a single formalism and catalogue all the cybersecurity tools, rules, playbooks, processes and controls. CyCAT is positioned as a readily accessible catalogue for and by the community, distributed and non-commercial. Some level of moderation will be organised to assure the quality and reliability of the content.
 
-Building on the success of existing initiatives such as CVE for vulnerabilities and elegant solutions such as the UUID used by MISP to uniquely identify and link events (e.g. which events extend or share attributes with one another), CyCAT.org provides mechanisms to programmatically attribute a unique identifier to:
-
+Building on the success of existing initiatives such as CVE for vulnerabilities and elegant solutions such as the UUID used by MISP to uniquely identify and link events (e.g. which events extend or share attributes with one another), CyCAT provides mechanisms to programmatically attribute a unique identifier to:
 
 - Cybersecurity tools
 - Rules and rule sets (such as Sigma, YARA, Snort/Zeek/Suricata)
@@ -54,38 +53,36 @@ Building on the success of existing initiatives such as CVE for vulnerabilities 
 
 By making an API call or via a web UI, authors can reserve a unique identifier for their contributions, while providing simple metadata to describe their entry in the catalogue.
 
-CYCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc. The system may also include at a later stage a community-sourced rating/validation of the content. 
+CyCAT will also provide a simple way for authors and contributors to suggest updates to the metadata of the entries in the library, flag links, overlaps between them, etc. The system may also include at a later stage a community-sourced rating/validation of the content.
 
 In addition, users can query the library to identify whether the problem they are trying to tackle has already been solved elsewhere and avoid, if they so prefer, duplication of work.
 
-CYCAT will offer users a web UI to query its content as well as CLI tools and API endpoints to interact with it and tag content that they are currently using or would like to experiment with in the future to have a holistic view of what they are using at a certain point in time in their operations, which rules, TTPs of IOC collections should be deprecated or replaced, which tools should be superseded by new ones, etc.
+CyCAT will offer users a web UI to query its content as well as CLI tools and API endpoints to interact with it and tag content that they are currently using or would like to experiment with in the future to have a holistic view of what they are using at a certain point in time in their operations, which rules, TTPs of IOC collections should be deprecated or replaced, which tools should be superseded by new ones, etc.
 
-The aim is not to replace any existing initiative in cybersecurity but to link and offer better visibility to all project owners and user communities. CYCAT is a non-profit initiative runs by a team of motivated people to catalogue and crosslink cybersecurity resources.
+The aim is not to replace any existing initiative in cybersecurity but to link and offer better visibility to all project owners and user communities. CyCAT is a non-profit initiative runs by a [team of motivated people](/team/) to catalogue and crosslink cybersecurity resources.
 
 # Intended Outcome
 
 The purpose is to provide contributors a unique and simple way to document, contextualise, validate and cross-reference their contributions, taking into account and building upon prior art. For users the purpose is to facilitate searching, identifying and locating cybersecurity resources of relevance for a specific or broader purpose.
 
-An example of the use of CYCAT in the current context would be to support pulling together the supply and demand for community insight, tools, rules and controls developed and made available to protect, detect and respond to threats such as the SolarWinds supply-chain attack. It would also provide an overview where they fit in the global view, like to which MITRE ATT&CK® (sub)techniques they are linked. Applying a rule from a ruleset in a network intrusion detection system can impact other elements in your organisation. CYCAT would also help to show where the rule fits within context.
+An example of the use of CyCAT in the current context would be to support pulling together the supply and demand for community insight, tools, rules and controls developed and made available to protect, detect and respond to threats such as the SolarWinds supply-chain attack. It would also provide an overview where they fit in the global view, like to which MITRE ATT&CK® (sub)techniques they are linked. Applying a rule from a ruleset in a network intrusion detection system can impact other elements in your organisation. CyCAT would also help to show where the rule fits within context.
 
-# CyCAT.org Resources
+# Resources
 
-- Taxonomy (GitHub repository) : [https://github.com/CyCat-project/cycat-taxonomy](https://github.com/CyCat-project/cycat-taxonomy)
-- Website:  [https://www.cycat.org/](https://www.cycat.org/)
+- Taxonomy (GitHub repository): [https://github.com/CyCat-project/cycat-taxonomy](https://github.com/CyCat-project/cycat-taxonomy)
+- Website: [https://www.cycat.org/](https://www.cycat.org/)
 - Contributing via GitHub issues: [https://github.com/CyCat-project/cycat-project-website/issues](https://github.com/CyCat-project/cycat-project-website/issues)
 
-# Timing
+# Timeline
 
-Initial feedback and peer review of the concept (White Paper and draft taxonomy) is expected between 1 February 2021 and 31 March 2021. The alpha version of the system is planned to be launched on the occasion of the next EU ATT&CK Community workshop on 1 June 2021.
+Initial feedback and peer review of this White Paper and the [draft taxonomy](https://github.com/CyCat-project/cycat-taxonomy) behind the CyCAT concept is expected between 1 February 2021 and 31 March 2021. The alpha version of the system is planned to be launched during the next EU ATT&CK Community workshop on 1 June 2021.
 
 # How to Submit Feedback?
 
-The CyCAT.org project is in an initial phase and we are actively looking for feedback. Don't hesitate to [open an issue](https://github.com/CyCat-project/cycat-project-website/issues/new/choose). You can have a look
-at our [FAQ](/faq/) if you have any questions.
+The CyCAT project is in its early stages and we are actively looking for feedback. Don't hesitate to [open an issue](https://github.com/CyCat-project/cycat-project-website/issues/new/choose). You can have a look at our [FAQ](/faq/) if you have any questions.
 
-# Who is Behind CyCAT.org?
+# Who is Behind CyCAT?
 
 We are experienced, community-oriented cybersecurity professionals who have at heart to help our fellow defenders keep threats at bay while making their life simpler.
 
 [Meet the team!](/team/)
-

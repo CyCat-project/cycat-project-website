@@ -6,8 +6,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Acknowledgment
-
 We would like to thank the following individuals who contributed to the CyCAT.org project:
 
 - Patrick Bareiss
@@ -15,4 +13,3 @@ We would like to thank the following individuals who contributed to the CyCAT.or
 - Olaf Hartong
 - Thomas Patzke
 - Daniil Yugoslavskiy
-
