@@ -25,6 +25,7 @@ A publisher can be any organisation, project or individual requesting a publishe
 | `cycat-uuid` | assigned CyCAT UUID | :heavy_check_mark: |
 | `link` | Internet link referencing the publisher | :heavy_check_mark: |
 | `timestamp` | Last update of the publisher record (unix timestamp) | :heavy_check_mark: |
+| `maintainer` | owner, external, cycat | - |
 
 Publisher examples: `mitre`, `circl`, `misp`
 
@@ -43,3 +44,5 @@ A publisher can request one or more project to CyCAT associated to the publisher
 | `type` | [Taxonomy type](https://github.com/CyCat-project/cycat-taxonomy) of the project from CyCAT taxonomy | :heavy_check_mark: |
 | `scope` | [Taxonomy scope](https://github.com/CyCat-project/cycat-taxonomy) of the project from CyCAT taxonomy | :heavy_check_mark: |
 | `timestamp` | Last update of the project record  (unix timestamp)| :heavy_check_mark: |
+| `maintainer` | owner, external, cycat | - |
+
