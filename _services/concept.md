@@ -13,7 +13,7 @@ by this publisher under a specific project. The CyCAT url is composed of two nam
 
 `publisher-short-name`:`project-short-name`:`UUID`
 
-## Publisher
+## Publisher namespace
 
 A publisher can be any organisation, project or individual requesting a publisher to CyCAT.
 
@@ -22,14 +22,14 @@ A publisher can be any organisation, project or individual requesting a publishe
 | `name` | Name of the publisher (full name)| :heavy_check_mark: |
 | `short-name` | Name of the publisher (short name) | :heavy_check_mark: |
 | `description` | Description of the publisher | :heavy_check_mark: |
-| `cycat-uuid` | assigned CyCAT UUID | :heavy_check_mark: |
+| `cycat-oid` | assigned CyCAT OID | :heavy_check_mark: |
 | `link` | Internet link referencing the publisher | :heavy_check_mark: |
 | `timestamp` | Last update of the publisher record (unix timestamp) | :heavy_check_mark: |
 | `maintainer` | owner, external, cycat | - |
 
 Publisher examples: `mitre`, `circl`, `misp`
 
-## Project
+## Project namespace
 
 A publisher can request one or more project to CyCAT associated to the publisher namespace.
 
@@ -38,7 +38,7 @@ A publisher can request one or more project to CyCAT associated to the publisher
 | `name` | Name of the project (full name)| :heavy_check_mark: |
 | `short-name` | Name of the project (short name) | :heavy_check_mark: |
 | `description` | Description of the project | :heavy_check_mark: |
-| `cycat-uuid` | assigned CyCAT UUID | :heavy_check_mark: |
+| `cycat-oid` | assigned CyCAT OID | :heavy_check_mark: |
 | `link` | Internet link referencing the project | :heavy_check_mark: |
 | `license` | License(s) of the project in SPX identifier (array) | :heavy_check_mark: |
 | `type` | [Taxonomy type](https://github.com/CyCat-project/cycat-taxonomy) of the project from CyCAT taxonomy | :heavy_check_mark: |
