@@ -37,3 +37,8 @@ sass:
 plugins:
   - jekyll-environment-variables
   - jemoji
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
