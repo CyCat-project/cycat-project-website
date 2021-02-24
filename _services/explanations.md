@@ -36,7 +36,7 @@ Whichever scope is queried, the resulting return data will contain a set of obje
 
 # For producers of CyCAT data
 
-The first step of encoding a resource reference is making sure that you have a **publisher** namespace reserved. For a full explanation of the **publisher** object, see the (concept page)](https://https://cycat.org/concept/).
+The first step of encoding a resource reference is making sure that you have a **publisher** namespace reserved. For a full explanation of the **publisher** object, see the (concept page)[https://https://cycat.org/concept/].
 
 The authoritive data-point in the **publisher** object is the `short-name`. When selecting a `short-name`, make sure that the name is as uniquely identifiable and tied to your organisation or person as possible.
 
@@ -48,12 +48,12 @@ Consider separating individual topics within a broad library into separate proje
 
 As an example, the ATT\&CK framework contains information on attacker techniques as well as threat actor information. This could be separated into the following namespaces:
 
-`mitre`:`att\&ck-threat-actor`:`[uuid]`
-`mitre`:`att\&ck-tactics-enterprise`:`[uuid]`
+`mitre`:`att&ck-threat-actor`:`[uuid]`
+`mitre`:`att&ck-tactics-enterprise`:`[uuid]`
 
 As opposed to:
 
-`mitre`:`att\&ck`:`[uuid]`
+`mitre`:`att&ck`:`[uuid]`
 
 The former allows a user to immediately identify the topic of the resource.
 
