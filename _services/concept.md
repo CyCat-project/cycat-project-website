@@ -54,6 +54,10 @@ A publisher can request one or more project to CyCAT associated to the publisher
 
 ## URL example
 
+### An CyCAT example with nishang, an offensive powershell
+
+![](/assets/examples/cycat-sample1-Page-1.svg)
+
 ## How to generate a CyCAT url for non-registered url or missing item in a collection
 
 CyCAT has a fixed UUID namespace `690b3b43-d689-481c-aa61-5351963a36f2`.
