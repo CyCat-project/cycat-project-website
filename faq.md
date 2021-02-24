@@ -124,9 +124,9 @@ Ideally, only resource owners should be able to apply for a namespace and progra
 
 ### Identifiers For Techniques vs. Tools
 
-_Will identifiers be assigned for both techniques (e.g. password spraying) and tools embodying them?
+_Will identifiers be assigned for both techniques (e.g. password spraying) and tools embodying them?_
 
-Is there a namespace for these to exist in?  i.e. identifier `1234` for `tools/passwordspray/Office365/foobar` v. `vulns/heartbleed/poc-python`.  If not, I wonder how duplication/overlap checking will be handled when there are 1.000 or 10.000 identifiers._
+_Is there a namespace for these to exist in?  i.e. identifier `1234` for `tools/passwordspray/Office365/foobar` v. `vulns/heartbleed/poc-python`.  If not, I wonder how duplication/overlap checking will be handled when there are 1.000 or 10.000 identifiers._
 
 A taxonomy (e.g. ATT&CK) will have its own namespace. Within that namespace, techniques will have their own identifiers. Tools will also have their own UUIDs and in a future iteration of CyCAT, links will be made between the two so users will be able to select all tools that support a certain technique. Users will also be able to obtain coherent ‘packages’ covering the techniques they are interested in and the related tools and to which areas or scopes they apply.
 
@@ -182,7 +182,6 @@ As for the `identify` scope in the taxonomy, it corresponds to the corresponding
 
 _To make CyCAT a success, one important element is relationships between entries, on an object level, but also between objects and object types. More concretely, a possibility to specify a relationship such as "rule A is of type Sigma rule" and another relation that specifies "Tool X converts Sigma rules into queries" or ‘Rule B -> Yara Rule -> Tool B scans for Yara matches in the file system/memory’ would be essential._
 
-
 As mentioned in the [CyCAT white paper](https://cycat.org/services/whitepaper/):
 
 > Finally, the system will, in a future iteration, facilitate interlinking resources that could be used in conjunction for an improved capability in coherent “packages”. Such “packages’’ could then be deployed by less mature entities as plug-and-play solutions to save time and defend themselves properly, while avoiding the pitfalls resolved by early adopters or more mature organisations.
@@ -205,11 +204,9 @@ Our aim is to use CyCAT as a vehicle to make concrete steps to ‘weed the jungl
 
 ### Tool Capability Specification
 
-_There is a need to specify the capabilities of tools.
+_There is a need to specify the capabilities of tools. Does a Yara scanner scan only files? Or also memory? How is the maturity level of the functionality? To support this, the taxonomy needs to be extended. e.g. a tool entry in CyCAT should contain information such as `capability:file-scan=stable, capability:memory-scan=experimental`._
 
-Does a Yara scanner scan only files? Or also memory? How is the maturity level of the functionality? To support this, the taxonomy needs to be extended. e.g. a tool entry in CyCAT should contain information such as `capability:file-scan=stable, capability:memory-scan=experimental`.
-
-This should be kept optional, to make contributions to CyCAT easy, but it would be a great resource to pick the best tool for a specific use case. This could be accomplished with additional taxonomies which could be used to tag CyCAT items._
+_This should be kept optional, to make contributions to CyCAT easy, but it would be a great resource to pick the best tool for a specific use case. This could be accomplished with additional taxonomies which could be used to tag CyCAT items._
 
 This is a great suggestion. We need to think carefully as to how to take it into account in the taxonomy, in a simple, elegant way. Specifying a taxonomy’s type capability, be it a tool, a rule (`endpoint-detection only`, `network-detection only`) or a mitigation (`full`, `partial`) will indeed help the community pick the best entry for the task at hand or know its limitations if any.
 
