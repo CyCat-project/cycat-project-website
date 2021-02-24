@@ -24,7 +24,7 @@
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}
-    {{content}}
+    {% include anchor_headings.html html=content anchorBody="#" %}
   </div>
   {% include footer.html %}
   {% include sub-footer.html %}
