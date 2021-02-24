@@ -13,6 +13,12 @@ by this publisher under a specific project. The CyCAT url is composed of two nam
 
 `publisher-short-name`:`project-short-name`:`UUID`
 
+## What is an UUID?
+
+A [universally unique identifier (UUID)](https://en.wikipedia.org/wiki/Universally_unique_identifier) is a 128-bit number used to identify information in computer systems also known as GUID.
+CyCAT use such UUID to reference items produced in a collection. CyCAT, by default, will use any existing UUID already assigned by the publisher. If not present or there is no item present,
+a fixed value is then calculated from the UUID namespace of CyCAT combined with `publisher-short-name:project-short-name`.
+
 ## Publisher namespace
 
 A publisher can be any organisation, project or individual requesting a publisher to CyCAT.
@@ -46,3 +52,13 @@ A publisher can request one or more project to CyCAT associated to the publisher
 | `timestamp` | Last update of the project record  (unix timestamp)| :heavy_check_mark: |
 | `maintainer` | owner, external, cycat | - |
 
+## URL example
+
+## How to generate a CyCAT url for non-registered url or missing item in a collection
+
+CyCAT has a fixed UUID namespace `690b3b43-d689-481c-aa61-5351963a36f2`.
+
+```shell
+% uuidgen --sha1 -n "690b3b43-d689-481c-aa61-5351963a36f2" -N "samratashok:nishang:"
+2605ff5e-342c-5326-8744-96a34b7e581e
+```
