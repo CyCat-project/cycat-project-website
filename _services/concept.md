@@ -16,7 +16,7 @@ by this publisher under a specific project. The CyCAT url is composed of two nam
 ## What is an UUID?
 
 A [universally unique identifier (UUID)](https://en.wikipedia.org/wiki/Universally_unique_identifier) is a 128-bit number used to identify information in computer systems also known as GUID.
-CyCAT use such UUID to reference items produced in a collection. CyCAT, by default, will use any existing UUID already assigned by the publisher. If not present or there is no item present,
+CyCAT uses such UUID to reference items produced in a collection. CyCAT, by default, will use any existing UUID already assigned by the publisher. If not present or there is no item present,
 a fixed value is then calculated from the UUID namespace of CyCAT combined with `publisher-short-name:project-short-name`.
 
 ## Publisher namespace
