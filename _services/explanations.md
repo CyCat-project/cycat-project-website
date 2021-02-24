@@ -8,7 +8,7 @@ layout: service
 
 # General concepts
 
-As decscribed on the [concept page](https://https://cycat.org/concept/), the CyCAT data-set maintains two main object types:
+As described on the [concept page](/services/concept/), the CyCAT data-set maintains two main object types:
 
 * Publisher information
 * Project information
@@ -38,13 +38,13 @@ Whichever scope is queried, the resulting return data will contain a set of obje
 
 The first step of encoding a resource reference is making sure that you have a **publisher** namespace reserved. For a full explanation of the **publisher** object, see the [concept page](https://https://cycat.org/concept/).
 
-The authoritive data-point in the **publisher** object is the `short-name`. When selecting a `short-name`, make sure that the name is as uniquely identifiable and tied to your organisation or person as possible.
+The authoritative data-point in the **publisher** object is the `short-name`. When selecting a `short-name`, make sure that the name is as uniquely identifiable and tied to your organisation or person as possible.
 
-It may often be the case that you are encoding information on behalf of a different project, organisation or for yourself as an invidual, consider using alternate **publisher** namespaces when this is the case to hav a clear separation between the role you play in the maintenance of the given resource.
+It may often be the case that you are encoding information on behalf of a different project, organisation or for yourself as an individual, consider using alternate **publisher** namespaces when this is the case to have a clear separation between the role you play in the maintenance of the given resource.
 
 Once the desired **publisher** exists in CyCAT, the next step is to create and reserve a namespace for the given **project** under which the resource belongs. A **project** can define a wide range of topics, be it a tool (such as MISP), a library (such as ATT\&CK) or a common concept (such as threat actors).
 
-Consider separating individual topics within a broad library into separate project names, if your library describes tangentally related concepts, keeping a clear separation between them will make it easier to imediately understand the concerns described by a resource.
+Consider separating individual topics within a broad library into separate project names, if your library describes tangentially related concepts, keeping a clear separation between them will make it easier to immediately understand the concerns described by a resource.
 
 As an example, the ATT\&CK framework contains information on attacker techniques as well as threat actor information. This could be separated into the following namespaces:
 
