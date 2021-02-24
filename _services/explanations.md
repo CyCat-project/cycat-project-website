@@ -8,7 +8,7 @@ layout: explanations
 
 # General concepts
 
-As decscribed on the (concept page)](https://https://cycat.org/concept/), the CyCAT data-set maintains two main object types:
+As decscribed on the [concept page](https://https://cycat.org/concept/), the CyCAT data-set maintains two main object types:
 
 * Publisher information
 * Project information
@@ -17,7 +17,7 @@ The former, **publisher** objects, describe unique resources detailing the infor
 
 The latter, **project** objects, deal with individual references to Cybersecurity resources. Any such resource is therefore inherently tied to a publisher. **Project** namespaces are created by CyCAT **publishers** under their namespace.
 
-By combining the **publisher** and the **project** namespaces along with an individual UUID ((UUID)](https://en.wikipedia.org/wiki/Universally_unique_identifier)), CyCAT generates a machine-parseable tag for each resource which can be used to reference the description of said resource in other projects, documentation, etc.
+By combining the **publisher** and the **project** namespaces along with an individual UUID ([UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier)), CyCAT generates a machine-parseable tag for each resource which can be used to reference the description of said resource in other projects, documentation, etc.
 
 The resulting format is a tag in the following format:
 
@@ -36,7 +36,7 @@ Whichever scope is queried, the resulting return data will contain a set of obje
 
 # For producers of CyCAT data
 
-The first step of encoding a resource reference is making sure that you have a **publisher** namespace reserved. For a full explanation of the **publisher** object, see the (concept page)[https://https://cycat.org/concept/].
+The first step of encoding a resource reference is making sure that you have a **publisher** namespace reserved. For a full explanation of the **publisher** object, see the [concept page](https://https://cycat.org/concept/).
 
 The authoritive data-point in the **publisher** object is the `short-name`. When selecting a `short-name`, make sure that the name is as uniquely identifiable and tied to your organisation or person as possible.
 
