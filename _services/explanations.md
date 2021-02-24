@@ -3,7 +3,7 @@ title: "Explanations - supporting documentation on the CyCAT format"
 date: 2021-02-24T08:18:35+01:00
 featured: true
 weight: 1
-layout: explanations
+layout: service
 ---
 
 # General concepts
