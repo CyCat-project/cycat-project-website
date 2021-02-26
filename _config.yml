@@ -37,8 +37,14 @@ sass:
 plugins:
   - jekyll-environment-variables
   - jemoji
+  - jekyll-last-modified-at
+  - jekyll-feed
 
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%Y'
