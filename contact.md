@@ -8,6 +8,8 @@ CyCAT is a virtual [team](/team/). You can contact us if you want to help us, co
 
 CyCAT is backed and sponsored by the [Computer Incident Response Center Luxembourg (CIRCL)](https://www.circl.lu/).
 
+![CIRCL logo](https://www.circl.lu/assets/images/circl-logo.png)
+
 # Contact address
 
 ```
