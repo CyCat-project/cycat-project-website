@@ -1,9 +1,6 @@
 ---
 title: Services
-layout: services
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: false
+layout: page
 ---
 
 # Services
@@ -12,7 +9,7 @@ CyCAT provides a public catalogue including an open API. [The Cybersecurity Reso
 
 CyCAT - The Cybersecurity Resource Catalogue public API services document is available as [OpenAPI 2.0 swagger file](https://api.cycat.org/swagger.json). [PDF](https://www.cycat.org/assets/docs/api-documentation-3.pdf) of the CyCAT API.
 
-We are currently in the initial feedback and peer review phase of the [White Paper](whitepaper/) and the [draft taxonomy](https://github.com/CyCat-project/cycat-taxonomy) behind the concept. This phase will end on 31 March 2021 and then we'll set out to build the aforementioned alpha version.
+The API already includes multiple source such as MITRE ATT&CK, Sigma rules, MISP feeds, MISP galaxies. Don't hesitate to [contact](/contact) us if you would like to add a new catalogue.
 
 ## API Usage and Examples
 
