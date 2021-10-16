@@ -5,7 +5,7 @@ layout: page
 
 # Services
 
-CyCAT provides a public catalogue using an open API. [The Cybersecurity Resource Catalogue public API services](https://api.cycat.org/) provides an extensive API to query UUID, publishers and projects. A web based interface will be added at a later stage.
+CyCAT provides a public catalogue using an open API. [The Cybersecurity Resource Catalogue public API](https://api.cycat.org/) currently allows to query UUID, publishers and projects. Additional query possibilities and a web based interface will be added at a later stage.
 
 CyCAT - The Cybersecurity Resource Catalogue public API services document is available as [OpenAPI 2.0 swagger file](https://api.cycat.org/swagger.json). [The documentation of the API is available in PDF](https://www.cycat.org/assets/docs/api-documentation-3.pdf).
 
