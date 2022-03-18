@@ -12,7 +12,6 @@ We are a group of experienced cybersecurity experts, community contributors and 
 
 # Contributors
 
-- Freddy Dezeure
 - Alexandre Dulaunoy
 - Andras Iklody
 - Saâd Kadhi
