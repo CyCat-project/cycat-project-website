@@ -8,5 +8,10 @@
     "name": "Twitter",
     "link": "https://twitter.com/CyCatp",
     "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Mastodon",
+    "link": "https://misp-community.org/@cycat",
+    "image": "images/social/mastodon.svg"
   }
 ]
